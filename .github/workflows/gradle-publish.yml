@@ -42,7 +42,7 @@ jobs:
     #     USERNAME: ${{ github.actor }}
     #     TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-    - uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v4
       with:
         name: easy-craft-bff.jar
         path: build/libs/easy-craft-bff-0.0.1-SNAPSHOT.jar
